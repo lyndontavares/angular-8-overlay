@@ -1,0 +1,21 @@
+mat-toolbar {
+  margin-bottom: 20px;
+}
+
+mat-toolbar-row {
+  justify-content: center;
+}
+
+mat-toolbar-row h1 {
+  font-size: 24px;
+}
+
+mat-toolbar-row h3 {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}

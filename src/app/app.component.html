@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <h1>Over.it</h1>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <h3>Simple overlay creation with Angular Material CDK</h3>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="container">
+
+    <mat-form-field class="example-full-width">
+        <input matInput cdkOverlayOrigin placeholder="Favorite food" value="Sushi">
+    </mat-form-field>
+
+    <button mat-raised-button  (click)=displayOverlay()>Click me!</button>
+
+</div>
+
+"@angular/material": "^8.2.3",
